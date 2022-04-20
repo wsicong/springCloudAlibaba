@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7ae131d-8333-4b88-a186-5ef3f39d7e19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/main/java/com/sc/cloud/dao/daoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/main/java/com/sc/cloud/pojo/pojoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/main/java/com/sc/cloud/service/serviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/main/java/com/sc/cloud/vo/voTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/engine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sc-cloud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -29,9 +44,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Program Files\Apache\maven-repository" />
-        <option name="mavenHome" value="D:/Program Files/Apache/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="D:\Program Files\Apache\settings.xml" />
+        <option name="localRepository" value="D:\MavenRepository\learning" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -41,22 +56,45 @@
     </option>
   </component>
   <component name="ProjectId" id="27yJ1P4gUsrHAi3eQ1relmAYPO1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springCloudAlibaba\sc-cloud\common" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -70,6 +108,8 @@
       <updated>1650286176131</updated>
       <workItem from="1650286177950" duration="1535000" />
       <workItem from="1650288835563" duration="1806000" />
+      <workItem from="1650333039852" duration="1111000" />
+      <workItem from="1650439064517" duration="2380000" />
     </task>
     <servers />
   </component>
@@ -81,11 +121,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#Project_Structure" timestamp="1650290247569">
@@ -96,33 +141,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1650290348766" />
-    <state x="372" y="26" key="CommitChangelistDialog2" timestamp="1650290667473">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="465" y="31" key="CommitChangelistDialog2" timestamp="1650452423666">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="372" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1650290667473" />
-    <state x="246" y="187" key="FileChooserDialogImpl" timestamp="1650290401816">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="465" y="31" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1650452423666" />
+    <state x="308" y="225" key="FileChooserDialogImpl" timestamp="1650333210625">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="246" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1650290401816" />
+    <state x="308" y="225" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1650333210625" />
     <state x="569" y="143" key="RollbackChangesDialog" timestamp="1650289482277">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="569" y="143" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1650289482277" />
-    <state x="270" y="75" key="SettingsEditor" timestamp="1650286279050">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="338" y="90" key="SettingsEditor" timestamp="1650333212886">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1650286279050" />
-    <state x="562" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650290567234">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="338" y="90" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650333212886" />
+    <state x="703" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650439071411">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="562" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1650290567234" />
+    <state x="703" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1650439071411" />
     <state x="108" y="144" width="1350" height="678" key="git4idea.log.GitShowExternalLogAction" timestamp="1650290429865">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="108" y="144" width="1350" height="678" key="git4idea.log.GitShowExternalLogAction/0.0.1536.864@0.0.1536.864" timestamp="1650290429865" />
-    <state x="178" y="127" key="new project wizard" timestamp="1650289692974">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="223" y="153" key="new project wizard" timestamp="1650439226564">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="178" y="127" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1650289692974" />
+    <state x="223" y="153" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1650439226564" />
   </component>
 </project>
