@@ -2,8 +2,8 @@ package com.sc.cloud.service.impl;
 
 import com.sc.cloud.pojo.User;
 import com.sc.cloud.service.UserService;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 /**
  * TODO
